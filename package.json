@@ -1,0 +1,34 @@
+{
+  "name": "ts-landing-email",
+  "version": "1.0.0",
+  "description": "Simple email sending API for the DevFactory Testing Services landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-ernest/ts-landing-email.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "email",
+    "cta",
+    "form"
+  ],
+  "author": "Alexey Melnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexey-ernest/ts-landing-email/issues"
+  },
+  "homepage": "https://github.com/alexey-ernest/ts-landing-email#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "sendgrid": "^3.0.5"
+  }
+}
